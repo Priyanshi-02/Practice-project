@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;;
+    box-sizing: border-box;
+}
+.nav{
+    width:100%;
+    height:50px;
+    background-color: black;
+    color:white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-left: 80px;
+}
+.nav .n{
+    padding: 8px 16px;
+    margin-top: 7px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    float:left;
+    display: block;
+}
+.Shop {
+    background-color: #f3f2ee;
+    padding: 40px 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+   padding-left: 110px;
+    text-align: center;
+}
+.Shop a{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+.Shop span{
+    color: gray;
+    text-decoration: none;
+    text-align: center; 
+}
+.right{
+    display: flex;
+  }
+  .nav .right a{
+      display: flex;
+      padding: 8px 16px;
+      margin-top: 7px;
+      /* margin-right: 7px; */
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+      float:left;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.5;
+  }
+  .one{
+    margin-left: 550px;
+}
+.nav .right select{
+    display: flex;
+    padding: 0px 16px;
+    margin-top: 7px;
+    margin-right: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 100;
+}
+.right option{
+    background-color: white;
+    color:black;
+}
+.header2{
+    display:flex;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.header2 a{
+    margin-top: 20px;
+    margin-left: 80px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.shirt{
+    text-align: center;
+    color: white;
+    
+}
+.icons{
+    margin-top: 22px;
+    margin-left: 80px;
+    display: flex;
+    gap: 15px;
+    height: 40px;
+}
+.icons>img{
+    height: 20px;
+}
+.foot{
+    padding: 0px 200px;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 120px;
+    width: 100%;
+    background-color: black;
+}
+.cont{
+    color: white;
+    width: 20pc;
+}
+.cont p{
+    font-size: 15px;
+    width: 100%;
+    margin-top: 30px;
+    padding: 0px;
+    margin-left: 0px;
+    text-align: left;
+    color: #b7b7b7;
+    /* margin-bottom: 30px; */
+    line-height: 25px;
+}
+.cont img{
+    margin-top: 30px;
+}
+.cont2 p{
+    font-size: 15px;
+    width: 100%;
+    margin-top: 30px;
+    padding: 0px;
+    margin-left: 0px;
+    text-align: left;
+    color: #b7b7b7;
+    line-height: 25px;
+}
+.cont2 input{
+    width: 70%;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+.cont2{
+    color: white;
+    font-size: 15px;
+} 
+.cont2 h6{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.cont2 ul {
+    /* color: #b7b7b7; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.line{
+    margin-left: 12%;
+    margin-top: -30px;
+    width: 70%;
+    border: 0.1px solid #b7b7b7;
+}
+footer p{
+    text-align: center;
+    margin-left: -50px;
+    color: white;
+}
+body{
+            background-color: bisque;
+        }
+        .box{
+          /*  background-color: yellow;*/
+            height: 300px;
+            width: 200px;
+            border: 2px solid grey;
+            box-sizing: border-box;
+            margin: 5px ;
+            display: inline-block;
+
+        }
+        .upper{
+            height: 60%;
+            background-color: white;
+
+        }
+        .lower{
+          
+          height: 40%;
+          text-align: center;
+          font-size: 13px;
+          line-height: 30px;
+          background-color: azure;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 0px 0px 20px 20px;
+        }
+        button{
+            padding: 12px 20px;
+            width: 80%;
+            background-color: orange;
+            border: none;
+            border-radius: 2px;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="n">
+                Free shipping, 30-day return or refund guarantee.
+            </div>
+            <div class="right">
+                <a href="#" class="one">SIGN IN</a>
+                <a href="#" class="two">FAQS</a>
+                <a href="#" class="two">USD</a>
+            </select>
+        </div>
+    </div>
+    <div class="header2">
+        <img src="https://themewagon.github.io/malefashion/img/logo.png" alt="" id="img0">
+        <a href="#" id="">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Pages</a>
+        <a href="#">Blog</a>
+        <a href="#">Contacts</a>
+        <div class="icons">
+            <img src="https://themewagon.github.io/malefashion/img/icon/search.png" alt="">
+            <img src="https://themewagon.github.io/malefashion/img/icon/heart.png" alt="">
+            <img src="https://themewagon.github.io/malefashion/img/icon/cart.png" alt="">
+            <div class="price">$0.00</div>
+        </div>
+    </div>
+        <div class="Shop">
+            <a href="#">Home</a> > <a href="#" id="">Shop</a> > 
+            <span class="new">Product Details</span>
+        </div>
+    </header>
+    <!-- <div class="shirt"><img src="" alt="">
+    <h1 class="header">Our Blog</h1></div>
+
+    <div class="box" >
+        <div class="upper">
+        <img src="https://plus.unsplash.com/premium_photo-1673356301514-2cad91907f74?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dCUyMHNoaXJ0fGVufDB8fDB8fHww"></div>
+        <div class="lower">
+         <h1>Title- T shirt</h1>
+         <h2>Price- 500</h2>
+          <button> Add to cart</button>
+         <h3></h3>
+        </div>
+     </div>
+     <div class="box" >
+         <div class="upper">
+         <img src="https://plus.unsplash.com/premium_photo-1673356301514-2cad91907f74?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dCUyMHNoaXJ0fGVufDB8fDB8fHww"></div>
+         <div class="lower">
+          <h1>Title- T shirt</h1>
+          <h2>Price- 500</h2>
+           <button>Add to cart</button>
+          <h3></h3>
+         </div>
+      </div>
+      <div class="box" >
+         <div class="upper">
+         <img src="https://plus.unsplash.com/premium_photo-1673356301514-2cad91907f74?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dCUyMHNoaXJ0fGVufDB8fDB8fHww"></div>
+         <div class="lower">
+          <h1>Title- T shirt</h1>
+          <h2>Price- 500</h2>
+           <button>Add to cart</button>
+          <h3></h3>
+         </div>
+      </div>
+      <div class="box" >
+         <div class="upper">
+         <img src="https://plus.unsplash.com/premium_photo-1673356301514-2cad91907f74?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dCUyMHNoaXJ0fGVufDB8fDB8fHww"></div>
+         <div class="lower">
+          <h1>Title- T shirt</h1>
+          <h2>Price- 500</h2>
+     <button> Add to cart</button>
+          <h3></h3>
+         </div>
+      </div>
+      <div class="box" >
+         <div class="upper">
+         <img src="https://plus.unsplash.com/premium_photo-1673356301514-2cad91907f74?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dCUyMHNoaXJ0fGVufDB8fDB8fHww"></div>
+         <div class="lower">
+          <h1>Title- T shirt</h1>
+          <h2>Price- 500</h2>
+     <button> Add to cart</button>
+          <h3></h3>
+         </div></div>
+         <div class="box" >
+             <div class="upper">
+             <img src="https://plus.unsplash.com/premium_photo-1673356301514-2cad91907f74?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dCUyMHNoaXJ0fGVufDB8fDB8fHww"></div>
+             <div class="lower">
+              <h1>Title- T shirt</h1>
+              <h2>Price- 500</h2>
+         <button> Add to cart</button>
+              <h3></h3>
+             </div></div>
+             <div class="box" >
+                 <div class="upper">
+                 <img src="https://plus.unsplash.com/premium_photo-1673356301514-2cad91907f74?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dCUyMHNoaXJ0fGVufDB8fDB8fHww"></div>
+                 <div class="lower">
+                  <h1>Title- T shirt</h1>
+                  <h2>Price- 500</h2>
+             <button> Add to cart</button>
+                  <h3></h3>
+                 </div></div>
+                 <div class="box" >
+                     <div class="upper">
+                     <img src="https://plus.unsplash.com/premium_photo-1673356301514-2cad91907f74?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dCUyMHNoaXJ0fGVufDB8fDB8fHww"></div>
+                     <div class="lower">
+                      <h1>Title- T shirt</h1>
+                      <h2>Price- 500</h2>
+                 <button> Add to cart</button>
+                      <h3></h3>
+                     </div></div>
+                     <div class="box" >
+                         <div class="upper">
+                         <img src="https://plus.unsplash.com/premium_photo-1673356301514-2cad91907f74?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dCUyMHNoaXJ0fGVufDB8fDB8fHww"></div>
+                         <div class="lower">
+                          <h1>Title- T shirt</h1>
+                          <h2>Price- 500</h2>
+                     <button> Add to cart</button>
+                          <h3></h3>
+                         </div></div> -->
+    <footer>
+        <div class="foot">
+            <div class="cont">
+                <img src="https://themewagon.github.io/malefashion/img/footer-logo.png" alt="">
+                <p>The customer is at the heart of our unique business model, which includes design.</p>
+                <img src="https://themewagon.github.io/malefashion/img/payment.png" alt="">
+            </div>
+
+
+            <div class="cont2">
+                <h6>SHOPPING</h6>
+                <ul type="none">
+                    <li> <a href="" style="color: #b7b7b7; text-decoration: none;">Clothing Store</a></li>
+                    <li><a href="" style="color: #b7b7b7; text-decoration: none;">Trending Shoes</a></li>
+                    <li><a href="" style="color: #b7b7b7; text-decoration: none;">Accessories</a></li>
+                    <li><a href="" style="color: #b7b7b7; text-decoration: none;">Sale</a></li>
+                </ul>
+            </div>
+
+            <div class="cont2">
+                <h6>SHOPPING</h6>
+                <ul type="none">
+                    <li><a href="" style="color: #b7b7b7; text-decoration: none;">Contact Us</a></li>
+                    <li><a href="" style="color: #b7b7b7; text-decoration: none;">Payment Methods</a></li>
+                    <li><a href="" style="color: #b7b7b7; text-decoration: none;">Delivery</a></li>
+                    <li><a href="" style="color: #b7b7b7; text-decoration: none;">Return &</a></li>
+                    <li><a href="" style="color: #b7b7b7; text-decoration: none;">Exchanges</a></li>
+                </ul>
+            </div>
+
+            <div class="cont2">
+                <h6>NEWLETTER</h6>
+                <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+                <div>
+                    <input type="email" name="" id="" placeholder="Your Email">
+                    <img src="https://www.flaticon.com/free-icons/email" alt="">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+
+            </div>
+        </div>
+        <div class="line"></div>
+        <p style="color:#b7b7b7; padding-top: 20px;padding-bottom: 20px; background-color: black;">Copyright © 20242020 All rights reserved | This template is made with <i class="fa-regular fa-heart"
+               style="color:red"></i> by <span style="color: red;">Colorlib</span></p>
+    </footer>
+</body>
+</html>
